@@ -3,7 +3,7 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
          <div class="container-fluid">
              <a class="navbar-brand" href="{{ route('site.home') }}">
-                 <img src="{{ asset('site/images/logo-hosting.jpeg') }}" alt="" />
+                 <img src="{{ asset('site/images/logo-hosting.png') }}" alt="" />
              </a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host"
                  aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
