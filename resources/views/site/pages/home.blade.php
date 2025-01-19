@@ -16,13 +16,14 @@
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <div id="home" class="first-section"
-                    style="background-image:url('{{ asset('site/images/slider-01.jpg') }}');">
+                    style="background-image:url('{{ asset('site/images/slider.png') }}');">
                     <div class="dtab">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 text-right">
                                     <div class="big-tagline">
-                                        <h2><strong>Shared Hosting</strong> Company</h2>
+                                        {{-- حلول البرمجة المتكاملة --}}
+                                        <h2><strong>Integrated Programming</strong> Solutions</h2>
                                         <p class="lead">With Landigoo responsive landing page template, you can promote
                                             your all hosting, domain and email services. </p>
                                         <a href="{{route('site.contactUs')}}" class="hover-btn-new"><span>Contact Us</span></a>
@@ -37,7 +38,7 @@
             </div>
             <div class="carousel-item">
                 <div id="home" class="first-section"
-                    style="background-image:url('{{ asset('site/images/slider-02.jpg') }}');">
+                    style="background-image:url('{{ asset('site/images/slider.png') }}');">
                     <div class="dtab">
                         <div class="container">
                             <div class="row">
@@ -60,7 +61,7 @@
             </div>
             <div class="carousel-item">
                 <div id="home" class="first-section"
-                    style="background-image:url('{{ asset('site/images/slider-03.jpg') }}');">
+                    style="background-image:url('{{ asset('site/images/slider.png') }}');">
                     <div class="dtab">
                         <div class="container">
                             <div class="row">

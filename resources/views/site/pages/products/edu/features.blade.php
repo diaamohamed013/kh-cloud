@@ -1,108 +1,36 @@
-<!DOCTYPE html>
+@extends('site.pages.products.master')
 
-<html lang="en" dir="ltr">
-
-<head>
-    <meta name="facebook-domain-verification" content="0ud5aqb2trwlo9t43mnju9narap5m0" />
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-P59Q8KF');
-    </script>
-    <!-- End Google Tag Manager -->
-
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
-    <title>features Edu Step Up school management system</title>
-
-    <!-- Meta Tags data -->
-    <meta name="keywords"
-        content="School management program, school control, school management program features, Edu Step Up, Student Affairs Program, School Control Program, School Administration System, Electronic School Administration Program, School Administrative Programs, School Program, Egyptian School Administration Program, School Administration Program, Program Control, school accounting program, private school management program, a complete program for student affairs management, private schools administration, schools administration, school management system, smart school program, school management system, complete school management program, complete school management program, electronic school system, School Electron Administration, School Affairs Administration, Student Affairs Administration, Student Affairs Administration Program, Comprehensive School Management Program, Saudi Schools Administration Program, Schools Accounting Program, School Administration Programs, Private Schools Accounting Program" />
-    <meta name="description"
-        content="The best integrated private school management system that simplifies and automatically manages daily tasks and operations within the school." />
-    <meta name="author" content="Edu Step Up" />
-    <meta name="robots" content="index, follow" />
-
-    <!-- Schema.org markup for Google -->
-    <meta itemprop="name" content="features Edu Step Up school management system">
-    <meta itemprop="description"
-        content="The best integrated private school management system that simplifies and automatically manages daily tasks and operations within the school.">
-    <meta itemprop="image" content="https://edustepup.com/assets/images/header-logo.png">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="features Edu Step Up school management system" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://edustepup.com/en/features" />
-    <meta property="og:description"
-        content="The best integrated private school management system that simplifies and automatically manages daily tasks and operations within the school." />
-    <meta property="og:site_name" content="Edu Step Up" />
-    <meta property="og:image" content="https://edustepup.com/assets/images/header-logo.png" />
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@edu_step_up">
-    <meta name="twitter:creator" content="@edu_step_up">
-    <meta name="twitter:title" content="features Edu Step Up school management system">
-    <meta name="twitter:description"
-        content="The best integrated private school management system that simplifies and automatically manages daily tasks and operations within the school.">
-    <meta name="twitter:image" content="https://edustepup.com/assets/images/header-logo.png">
-
-    <link rel="canonical" href="https://edustepup.com/en/features">
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="https://edustepup.com/assets/images/favicon.ico">
-
-
+@push('feature-css')
     <link rel="stylesheet" href="https://edustepup.com/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://edustepup.com/assets/css/style.min.css">
     <link rel="stylesheet" href="https://edustepup.com/assets/css/style-en.min.css">
+    <style>
+        .header-feature {
+            background-color: #fff !important;
+            height: 80px !important;
+            position: sticky !important;
+            top: 40;
+            left: 0;
+            right: 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+        }
 
+        .header-feature .main-nav .nav li a,
+        .header-feature .main-nav .logo {
+            color: #333 !important;
+        }
 
+        img {
+            width: auto;
+        }
 
+        .slick-initialized .slick-slide {
+            height: auto;
+        }
+    </style>
+@endpush
 
-
-    <link rel="alternate" hreflang="ar" href="https://edustepup.com/features" />
-
-    <link rel="alternate" hreflang="en" href="https://edustepup.com/en/features" />
-
-
-
-    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-T3P5NC5"></script>
-
-    <meta name="yandex-verification" content="afac5982fd3c047e" />
-    <meta name="p:domain_verify" content="5c872ce1b69f81c985c712349ec15046" />
-
-    <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/assets/fonts/arabic-font/TheSans.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="/assets/webfonts/fa-solid-900.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="/assets/webfonts/fa-solid-900.ttf" as="font" type="font/ttf" crossorigin>
-
-</head>
-
-<body>
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P59Q8KF" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfsP5klAAAAAIWpnm_0G-_mR-pxNqchVjkgsrp4"></script>
-
+@section('content')
     <!-- Start Main Content -->
     <main class="fetaure-page-main">
 
@@ -164,8 +92,8 @@
                 <div class="row">
 
                     <div class="col-md-5 text-center">
-                        <img src="https://edustepup.com/assets/images/en/features-edu-step-up-en.jpg"
-                            class="wow bounceIn" data-wow-delay="0.2s" alt="General Features of EDU Step-up"
+                        <img src="https://edustepup.com/assets/images/en/features-edu-step-up-en.jpg" class="wow bounceIn"
+                            data-wow-delay="0.2s" alt="General Features of EDU Step-up"
                             title="General Features of EDU Step-up">
                     </div>
 
@@ -660,8 +588,8 @@
                     <p class="gray-color">Almanaber School</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/almshrq-private-schools.webp"
-                        class="clientImg" alt="Almshrq private Schools" title="Almshrq private Schools">
+                    <img src="https://edustepup.com/assets/images/clients/almshrq-private-schools.webp" class="clientImg"
+                        alt="Almshrq private Schools" title="Almshrq private Schools">
                     <p class="gray-color">Almshrq private Schools</p>
                 </div>
                 <div class="slide">
@@ -690,18 +618,18 @@
                     <p class="gray-color">Ndazagazig School</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/al-zahraa-private-school.webp"
-                        class="clientImg" alt="Al-zahraa Private School" title="Al-zahraa Private School">
+                    <img src="https://edustepup.com/assets/images/clients/al-zahraa-private-school.webp" class="clientImg"
+                        alt="Al-zahraa Private School" title="Al-zahraa Private School">
                     <p class="gray-color">Al-zahraa Private School</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/horizon-language-schools.webp"
-                        class="clientImg" alt="Horizon Language Schools" title="Horizon Language Schools">
+                    <img src="https://edustepup.com/assets/images/clients/horizon-language-schools.webp" class="clientImg"
+                        alt="Horizon Language Schools" title="Horizon Language Schools">
                     <p class="gray-color">Horizon Language Schools</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/alnajah-private-schools.webp"
-                        class="clientImg" alt="Alnajah Private-Schools" title="Alnajah Private-Schools">
+                    <img src="https://edustepup.com/assets/images/clients/alnajah-private-schools.webp" class="clientImg"
+                        alt="Alnajah Private-Schools" title="Alnajah Private-Schools">
                     <p class="gray-color">Alnajah Private-Schools</p>
                 </div>
                 <div class="slide">
@@ -710,8 +638,8 @@
                     <p class="gray-color">Bilasan Schools</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/safwa-private-schools.webp"
-                        class="clientImg" alt="Safwa Private Schools" title="Safwa Private Schools">
+                    <img src="https://edustepup.com/assets/images/clients/safwa-private-schools.webp" class="clientImg"
+                        alt="Safwa Private Schools" title="Safwa Private Schools">
                     <p class="gray-color">Safwa Private Schools</p>
                 </div>
                 <div class="slide">
@@ -751,8 +679,8 @@
                     <p class="gray-color">Delta Modern language Schools</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/el-shams-private-school.webp"
-                        class="clientImg" alt="El-shams Private School" title="El-shams Private School">
+                    <img src="https://edustepup.com/assets/images/clients/el-shams-private-school.webp" class="clientImg"
+                        alt="El-shams Private School" title="El-shams Private School">
                     <p class="gray-color">El-shams Private School</p>
                 </div>
                 <div class="slide">
@@ -761,8 +689,8 @@
                     <p class="gray-color">Misr Mostakbal</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/tamayoz-language-school.webp"
-                        class="clientImg" alt="Tamayoz Language School" title="Tamayoz Language School">
+                    <img src="https://edustepup.com/assets/images/clients/tamayoz-language-school.webp" class="clientImg"
+                        alt="Tamayoz Language School" title="Tamayoz Language School">
                     <p class="gray-color">Tamayoz Language School</p>
                 </div>
                 <div class="slide">
@@ -797,8 +725,8 @@
                     <p class="gray-color">Sanabel Roshdy international School</p>
                 </div>
                 <div class="slide">
-                    <img src="https://edustepup.com/assets/images/clients/al-eman-private-schoolsd.webp"
-                        class="clientImg" alt="Al-eman Private Schools" title="Al-eman Private Schools">
+                    <img src="https://edustepup.com/assets/images/clients/al-eman-private-schoolsd.webp" class="clientImg"
+                        alt="Al-eman Private Schools" title="Al-eman Private Schools">
                     <p class="gray-color">Al-eman Private Schools</p>
                 </div>
             </div>
@@ -819,8 +747,7 @@
                     Request trial version </h3>
                 <p class="gray-color main-font-size wow fadeInUp" data-wow-delay="0.2s">
                     Please fill in your details to get a free online demo </p>
-                <form id="contactform" method="POST" action="https://edustepup.com/controller/contact.php"
-                    novalidate>
+                <form id="contactform" method="POST" action="https://edustepup.com/controller/contact.php" novalidate>
                     <input type="hidden" name="page" value="المميزات">
                     <input type="hidden" name="link" value="https://edustepup.com/en/features">
                     <div class="form-group wow fadeInUp" data-wow-delay="0.2s">
@@ -868,54 +795,21 @@
         </div>
 
     </main>
+@endsection
 
-    <input type="hidden" name="lang" id="session-lang" value="en">
-    <!-- Css -->
+@push('feature-js')
     <link rel="stylesheet" href="https://edustepup.com/assets/css/normalize.min.css">
     <link rel="stylesheet" href="https://edustepup.com/assets/css/animate.min.css">
-
-
     <link rel="stylesheet" href="https://edustepup.com/assets/css/responsive.min.css">
 
-
-
-    <!-- Start Scripts-->
-    <script type="text/javascript" src="https://edustepup.com/assets/js/jquery-3.5.1.slim.min.js"></script>
-    <script type="text/javascript" src="https://edustepup.com/assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://edustepup.com/assets/js/wow.min.js"></script>
 
-
-
     <script type="text/javascript" src="https://edustepup.com/assets/js/main.min.js"></script>
+    <script src="https://edustepup.com/assets/js/slick.min.js"></script>
     <script type="text/javascript" src="https://edustepup.com/assets/js/footer.min.js"></script>
     <!-- End Scripts-->
-    <script>
-        function enb_sub(token) {
-            $('#contact-button').prop('disabled', false);
-        }
-    </script>
-
-
+@endpush
 
 </body>
 
 </html>
-<script type="text/javascript" src="https://edustepup.com/assets/js/all.min.js"></script>
-<script type="text/javascript" src="https://edustepup.com/assets/js/contact.min.js"></script>
-<script type="text/javascript" src="https://edustepup.com/assets/js/sweat.js"></script>
-<script src="https://edustepup.com/assets/js/slick.min.js"></script>
-
-<script>
-    if (window.matchMedia('(max-width: 767px)').matches) {
-        var i;
-        var divs = [];
-        for (i = 1; i < 12; i++) {
-            divs.push(document.getElementById('div' + i));
-        }
-
-        $('.divsmodile').html('')
-        for (i = 0; i < 11; i++) {
-            $('#divsmodile').append(divs[i])
-        }
-    }
-</script>
