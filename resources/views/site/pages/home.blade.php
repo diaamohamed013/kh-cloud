@@ -38,13 +38,15 @@
             </div>
             <div class="carousel-item">
                 <div id="home" class="first-section"
-                    style="background-image:url('{{ asset('site/images/slider.png') }}');">
+                    style="background-image:url('{{ asset('site/images/slider2.jpg') }}');">
                     <div class="dtab">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 text-left">
                                     <div class="big-tagline">
-                                        <h2 data-animation="animated zoomInRight">Find the right <strong>Hosting</strong>
+                                        <h2 data-animation="animated zoomInRight">
+                                            {{-- التكنولوجيا المتقدمة في البرمجة --}}
+                                            Advanced Technology in <strong>Programming</strong>
                                         </h2>
                                         <p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive
                                             landing page template, you can promote your all hosting, domain and email
@@ -61,13 +63,15 @@
             </div>
             <div class="carousel-item">
                 <div id="home" class="first-section"
-                    style="background-image:url('{{ asset('site/images/slider.png') }}');">
+                    style="background-image:url('{{ asset('site/images/slider3.jpg') }}');">
                     <div class="dtab">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 text-center">
                                     <div class="big-tagline">
-                                        <h2 data-animation="animated zoomInRight"><strong>VPS Servers</strong> Company</h2>
+                                        <h2 data-animation="animated zoomInRight">
+                                            {{-- فريق من المحترفين في البرمجة --}}
+                                            <strong>A team of professionals in </strong> programming</h2>
                                         <p class="lead" data-animation="animated fadeInLeft">1 IP included with each
                                             server
                                             Your Choice of any OS (CentOS, Windows, Debian, Fedora)
