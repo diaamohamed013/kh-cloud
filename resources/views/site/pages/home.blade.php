@@ -23,7 +23,10 @@
                                 <div class="col-md-12 col-sm-12 text-right">
                                     <div class="big-tagline">
                                         {{-- حلول البرمجة المتكاملة --}}
-                                        <h2><strong>Integrated Programming</strong> Solutions</h2>
+                                        <h2>
+                                            Integrated Programming Solutions
+                                            {{-- <strong></strong> --}}
+                                        </h2>
                                         <p class="lead">With Landigoo responsive landing page template, you can promote
                                             your all hosting, domain and email services. </p>
                                         <a href="{{route('site.contactUs')}}" class="hover-btn-new"><span>Contact Us</span></a>
@@ -46,7 +49,8 @@
                                     <div class="big-tagline">
                                         <h2 data-animation="animated zoomInRight">
                                             {{-- التكنولوجيا المتقدمة في البرمجة --}}
-                                            Advanced Technology in <strong>Programming</strong>
+                                            Advanced Technology in Programming
+                                            {{-- <strong></strong> --}}
                                         </h2>
                                         <p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive
                                             landing page template, you can promote your all hosting, domain and email
@@ -71,7 +75,9 @@
                                     <div class="big-tagline">
                                         <h2 data-animation="animated zoomInRight">
                                             {{-- فريق من المحترفين في البرمجة --}}
-                                            <strong>A team of professionals in </strong> programming</h2>
+                                            A team of professionals in programming
+                                            {{-- <strong></strong> --}}
+                                        </h2>
                                         <p class="lead" data-animation="animated fadeInLeft">1 IP included with each
                                             server
                                             Your Choice of any OS (CentOS, Windows, Debian, Fedora)
