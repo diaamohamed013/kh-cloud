@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>{{ env('APP_NAME') }} - Edu Meetings</title>
+    <title>{{ env('APP_NAME') }} - Edu Cloud System</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('site/products/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">

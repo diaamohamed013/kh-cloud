@@ -27,6 +27,10 @@
         .slick-initialized .slick-slide {
             height: auto;
         }
+
+        ul.featuresEdu li {
+            list-style: disc;
+        }
     </style>
 @endpush
 
@@ -36,7 +40,7 @@
 
         <div class="features-page">
             <div class="features-header">
-                <h1 class="green-color text-center wow fadeInUp">Features of Edu Step Up School Management System.</h1>
+                <h1 class="green-color text-center wow fadeInUp">Features of EDU Cloud System</h1>
                 <p class="gray-color text-center main-font-size wow fadeInUp" data-wow-delay="0.2s">
                     The system contains all the basic tools and sections that are based on managing the entire school.
                 </p>
@@ -53,28 +57,54 @@
 
                     <div class="col-md-7">
                         <h2 class="green-color wow fadeInUp" data-wow-delay="0.2s">
-                            Edu Step Up School Management System
+                            EDU Cloud System
                         </h2>
                         <p class="gray-color main-font-size wow fadeInUp" data-wow-delay="0.2s">
-                            It is an integrated system for schools with multiple options and tasks that organize and
-                            manage the affairs of the school. It provides an easy environment for communication between
-                            teachers, students, parents and school management. It is characterized by ease of dealing
-                            with it and is suitable for all schools of different types (private - governmental -
-                            international), whether the type of study is Arabic or languages.
+                            EDU Cloud System is a comprehensive and flexible solution for managing nurseries, educational
+                            institutes, academies, and learning centers. It enables you to organize and manage all aspects
+                            of the educational institution with high efficiency. The system provides a flexible and
+                            easy-to-use environment for communication between teachers, students, parents, and the
+                            institution's management, enhancing work efficiency and ensuring smooth interaction between all
+                            parties. The program is user-friendly and can be customized to meet the needs of all types of
+                            educational institutions, whether they are nurseries, institutes, academies, or learning
+                            centers.
                         </p>
                         <p class="gray-color main-font-size wow fadeInUp" data-wow-delay="0.2s">
-                            The System includes a school website which is fully integrated with it and a mobile
-                            application for parents and students, which provides complete ease of communication and
-                            distance education and creates a good impression and a distinctive image of the school.
+                            <strong style="color: #f5a425; font-size: 16px;">
+                                Program Features:
+                            </strong>
+                            <br>
+                            - An integrated system for managing the educational institution, covering all aspects such as
+                            registration, admissions, attendance, and evaluations.<br>
+                            - A dedicated integrated website for the educational institution that allows direct
+                            communication between teachers, students, and parents.<br>
+                            - An interactive app for parents and students, enabling them to track updates related to
+                            attendance, assignments, results, and other educational matters.<br>
+                            - The system can be customized to suit the specific needs of each institution, whether it's a
+                            nursery, institute, academy, or learning center.
                         </p>
                         <br>
                         <p class="gray-color main-font-size wow fadeInUp" data-wow-delay="0.2s">
-                            The Edu Step Up System runs the entire management of the school from registration,
-                            admission, attendance, examinations and certificates of results. It is the first program in
-                            the management of private and international schools from student affairs, personnel affairs
-                            and school accounts. You can easily set up and customize the system according to each
-                            school, and it simplifies and manages the daily tasks and operations within the school, and
-                            also helps to complete them automatically using the smart system in the Edu Step Up program.
+                            <strong style="color: #f5a425; font-size: 16px;">
+                                Program Characteristics:
+                            </strong>
+                            <br>
+                            - Student Management: From registration, attendance tracking, organizing exams, issuing
+                            certificates, to providing detailed and comprehensive reports.<br>
+                            - Staff Management: Tracking performance, managing schedules, and calculating salaries
+                            accurately and efficiently.<br>
+                            - Account Management: A comprehensive accounting system for managing payments and expenses, with
+                            the ability to issue invoices and organize tuition fees.<br>
+                            - E-learning: Provides a digital learning environment that allows students and parents to easily
+                            access educational materials, simplifying the remote learning experience.<br>
+                            - Daily Task Management: The system helps streamline daily tasks using intelligent systems that
+                            enhance efficiency and save time.
+                        </p>
+                        <br>
+                        <p class="gray-color main-font-size wow fadeInUp" data-wow-delay="0.2s">
+                            EDU Cloud System is the ideal choice for managing your educational institutions with flexibility
+                            and professionalism, enhancing the institution's image and providing a progressive educational
+                            environment that meets the needs of both students and parents.
                         </p>
                     </div>
 
@@ -99,33 +129,66 @@
 
                     <div class="col-md-7">
                         <h2 class="green-color wow fadeInUp" data-wow-delay="0.2s">
-                            Edu Step Up General feature:
+                            Edu Cloud System General feature:
                         </h2>
-                        <ul class="gray-color wow fadeInUp" data-wow-delay="0.2s">
-                            <li> Integrated web-based school system.</li>
-                            <li>Easy interface throughout working.</li>
-                            <li>fill protection of all school files and data from damage.</li>
-                            <li>Automatic backup on a regular basis and recovery system when any error occurs.</li>
-                            <li>system is available in more than one language, the most important of which is Arabic and
-                                English.</li>
-                            <li>system work on desktops; mobile devices and on all browsers.</li>
-                            <li>Full support for the school's website and mobile application.</li>
-                            <li>The system has been developed with the latest ASP technologies, C# programming language
-                                and SQL Server database.</li>
-                            <li>The program contains a professional system for distributing privileges to all parts of
-                                the system to all users of the system.</li>
-                            <li>The system contains a dynamic account tree up to 6 levels that enables you to add all
-                                the items in the budget.</li>
-                            <li>The Edu Step Up school system fully supports value added tax (VAT).</li>
-                            <li>Full support for the ability to export and import files and reports with ease.</li>
-                            <li>Print and export reports in more than one format, EXCEL, PDF.</li>
-                            <li>Easily customize the system according to the school.</li>
-                            <li>The system is fast and works efficiently under pressure.</li>
-                            <li>Processing and storing huge amounts of data in an encrypted manner.</li>
-                            <li>The program supports many currencies to choose between them when adjusting system
-                                settings.</li>
-                            <li> Trusted and guaranteed by more than 350 schools inside and outside Egypt.</li>
-                            <li>Professional technical support with you all the time to solve any problem you face.</li>
+                        <ul class="gray-color wow fadeInUp featuresEdu" data-wow-delay="0.2s">
+                            <li>Comprehensive Web-Based System for Educational Institutions
+                                Edu Cloud System is a complete cloud-based system that organizes and manages all aspects of
+                                your educational institution online, ensuring smooth and efficient management.</li>
+                            <li>User-Friendly and Convenient Interface
+                                Edu Cloud System features an easy-to-use and intuitive interface, making it simple for you
+                                to carry out daily tasks with minimal effort.</li>
+                            <li>Complete Data and Information Protection
+                                Edu Cloud System provides full protection for the files and data of your institution,
+                                ensuring that all information is secure and safe.</li>
+                            <li>Secure Cloud Storage System
+                                Edu Cloud System utilizes cloud storage to securely save your data, providing protection and
+                                security for your institution’s information at all times.</li>
+                            <li>Automatic Backups and Easy Data Recovery
+                                Edu Cloud System automatically backs up all data regularly, with the ability to restore it
+                                immediately in case of any errors.</li>
+                            <li>Multi-Language Support
+                                Edu Cloud System supports multiple languages, including Arabic and English, to accommodate
+                                the needs of users from different regions.</li>
+                            <li>Compatibility with All Devices and Browsers
+                                You can use Edu Cloud System on all desktop and mobile devices, as well as on all different
+                                browsers, offering you great flexibility in access.</li>
+                            <li>Full Support for Your Website and Mobile Apps
+                                Edu Cloud System provides full support for your institution’s website and mobile
+                                application, enhancing communication with all parties.</li>
+                            <li>Developed with Modern Technologies
+                                Edu Cloud System is developed using the latest programming technologies such as PHP and
+                                SQL Server, ensuring excellent performance and stability.</li>
+                            <li>Advanced Permission Distribution System
+                                Edu Cloud System features a professional permission distribution system for all users,
+                                giving you full control over access to information and functions.</li>
+                            <li>Dynamic Account Tree
+                                Edu Cloud System has a dynamic account tree with up to 6 levels, allowing you to easily add
+                                all budget items.</li>
+                            <li>Complete VAT Support
+                                Edu Cloud System fully supports VAT, making the process of calculating and issuing invoices
+                                seamless.</li>
+                            <li>Easy Import and Export of Files and Reports
+                                Edu Cloud System allows easy import and export of files and reports in Excel and PDF
+                                formats, streamlining daily operations.</li>
+                            <li>Easy System Setup and Customization
+                                You can easily customize Edu Cloud System to fit the needs of your institution, whether it's
+                                a nursery, institute, academy, or tutoring center.</li>
+                            <li>Fast and Efficient Performance under Pressure
+                                Edu Cloud System offers high speed and efficiency in managing operations and data, even
+                                under heavy workload.</li>
+                            <li>Encrypted and Secure Data Storage
+                                Edu Cloud System processes and stores large volumes of data in an encrypted manner, ensuring
+                                complete data protection.</li>
+                            <li>Support for Multiple Currencies
+                                Edu Cloud System supports various currencies, allowing you to adjust the system settings
+                                according to your local currency.</li>
+                            <li>Trusted by Over 350 Educational Institutions
+                                Edu Cloud System is the trusted choice for over 350 educational institutions both within
+                                Egypt and internationally.</li>
+                            <li>24/7 Professional Technical Support
+                                Edu Cloud System provides professional technical support at all times, ensuring any issue
+                                you encounter is resolved promptly and effectively.</li>
                         </ul>
                     </div>
                 </div>

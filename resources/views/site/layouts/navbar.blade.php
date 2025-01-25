@@ -41,7 +41,7 @@
                          <a class="nav-link dropdown-toggle" href="#" id="dropdown-a"
                              data-toggle="dropdown">Products </a>
                          <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                             <a class="dropdown-item" href="{{ route('site.products') }}">Edu Meeting </a>
+                             <a class="dropdown-item" href="{{ route('site.products') }}">Edu Cloud System </a>
                          </div>
                      </li>
                      {{-- <li class="nav-item"><a class="nav-link" href="domain.html">Domain</a></li> --}}
