@@ -123,8 +123,8 @@
 
                     <div class="col-md-5 text-center">
                         <img src="https://edustepup.com/assets/images/en/features-edu-step-up-en.jpg" class="wow bounceIn"
-                            data-wow-delay="0.2s" alt="General Features of EDU Step-up"
-                            title="General Features of EDU Step-up">
+                            data-wow-delay="0.2s" alt="General Features of EDU Cloud System"
+                            title="General Features of EDU Cloud System">
                     </div>
 
                     <div class="col-md-7">
