@@ -1,96 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('site.pages.products.master')
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <title>{{ env('APP_NAME') }} - Edu Meetings</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('site/products/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="{{ asset('site/products/css/fontawesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('site/products/css/templatemo-edu-meeting.css') }}">
-    <link rel="stylesheet" href="{{ asset('site/products/css/owl.css') }}">
-    <link rel="stylesheet" href="{{ asset('site/products/css/lightbox.css') }}">
-    <!--
-
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
--->
-</head>
-
-<body>
-
-    <!-- Sub Header -->
-    <div class="sub-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-8">
-                    <div class="left-content">
-                        <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-4">
-                    <div class="right-icons">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            Edu Meeting
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li><a href="meetings.html">Meetings</a></li>
-                            <li class="scroll-to-section"><a href="#apply">Apply Now</a></li>
-                            <li class="has-sub">
-                                <a href="javascript:void(0)">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                    <li><a href="meeting-details.html">Meeting Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#courses">Courses</a></li>
-                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
+@section('content')
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
         <video autoplay muted loop id="bg-video">
@@ -102,18 +12,26 @@ https://templatemo.com/tm-569-edu-meeting
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="caption">
-                            <h6>Hello Students</h6>
-                            <h2>Welcome to Education</h2>
-                            <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow"
+                            <h6>Welcome to Edu Cloud System</h6>
+                            <h2>An Integrated System for Managing Your Educational Institutions</h2>
+                            {{-- <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow"
                                     href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is
                                 a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of
                                 young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster"
-                                    target="_blank">Pressmaster</a>.</p>
+                                    target="_blank">Pressmaster</a>.</p> --}}
+                            <p>
+                                At Edu Cloud System, we offer a comprehensive system for managing nurseries and educational
+                                institutes, enabling you to organize all aspects of your operations efficiently. From
+                                registration, attendance, to communication with parents, the system provides innovative
+                                tools to streamline your institution's workflow. With Edu Cloud System, you can create a
+                                more organized and professional educational environment. We are here to support you in
+                                delivering an exceptional learning experience that keeps up with the digital age.
+                            </p>
                             <div class="main-button-red">
                                 <div class="scroll-to-section">
                                     <a href="#contact">Join Us Now!</a>
                                     <a href="{{ route('site.products.features') }}" class="mx-2" target="_b"
-                                        style="color: #a12c2f; background-color: #fff;" id="featurePage">
+                                        style="color: #3f5d50; background-color: #fff;" id="featurePage">
                                         Features
                                     </a>
                                 </div>
@@ -137,9 +55,11 @@ https://templatemo.com/tm-569-edu-meeting
                                 <img src="{{ asset('site/products/images/service-icon-01.png') }}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Best Education</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>Best System </h4>
+                                <p>Edu Cloud System is an all-in-one solution designed to simplify the management of
+                                    educational institutions. It provides a seamless, intuitive platform that integrates all
+                                    administrative functions into one unified system, ensuring smooth operations for both
+                                    staff and students.</p>
                             </div>
                         </div>
 
@@ -149,8 +69,10 @@ https://templatemo.com/tm-569-edu-meeting
                             </div>
                             <div class="down-content">
                                 <h4>Best Teachers</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <p>With Edu Cloud System, teachers have access to a powerful tool that helps them manage
+                                    their classrooms efficiently. From grading and attendance to communication with parents,
+                                    the system supports teachers in delivering high-quality education while saving time on
+                                    administrative tasks.</p>
                             </div>
                         </div>
 
@@ -160,8 +82,9 @@ https://templatemo.com/tm-569-edu-meeting
                             </div>
                             <div class="down-content">
                                 <h4>Best Students</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <p>Edu Cloud System offers students an interactive platform that makes learning more
+                                    engaging and accessible. The system provides easy access to lessons, assignments, and
+                                    results, ensuring students stay on track and have a clear view of their progress.</p>
                             </div>
                         </div>
 
@@ -170,9 +93,11 @@ https://templatemo.com/tm-569-edu-meeting
                                 <img src="{{ asset('site/products/images/service-icon-02.png') }}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Online Meeting</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>Best Education</h4>
+                                <p>By streamlining administrative tasks and enhancing communication, Edu Cloud System
+                                    ensures that educational institutions can focus more on delivering quality education.
+                                    The system promotes a collaborative environment that fosters student success and teacher
+                                    productivity.</p>
                             </div>
                         </div>
 
@@ -182,8 +107,10 @@ https://templatemo.com/tm-569-edu-meeting
                             </div>
                             <div class="down-content">
                                 <h4>Best Networking</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <p>Edu Cloud System facilitates seamless communication and collaboration between all
+                                    stakeholders – teachers, students, and parents. The system helps build a strong network,
+                                    fostering a sense of community and enhancing the learning experience for everyone
+                                    involved.</p>
                             </div>
                         </div>
 
@@ -200,9 +127,10 @@ https://templatemo.com/tm-569-edu-meeting
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="item">
-                                <h3>APPLY FOR BACHELOR DEGREE</h3>
-                                <p>You are allowed to use this edu meeting CSS template for your school or university or
-                                    business. You can feel free to modify or edit this layout.</p>
+                                <h3>SUBSCRIBE TO EDU CLOUD SYSTEM FOr Your Nursery</h3>
+                                <p>You can easily enhance your nursery's management with the Edu Cloud System. Our system is
+                                    designed to make daily operations smoother and more efficient for both staff and
+                                    parents.</p>
                                 <div class="main-button-red">
                                     <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
                                 </div>
@@ -210,9 +138,10 @@ https://templatemo.com/tm-569-edu-meeting
                         </div>
                         <div class="col-lg-12">
                             <div class="item">
-                                <h3>APPLY FOR BACHELOR DEGREE</h3>
-                                <p>You are not allowed to redistribute the template ZIP file on any other template
-                                    website. Please contact us for more information.</p>
+                                <h3>JOIN EDU CLOUD SYSTEM NOW For Your Institute</h3>
+                                <p>Improve the management of your institute or academy with Edu Cloud System. This platform
+                                    offers powerful tools to enhance your operations, student communication, and overall
+                                    educational experience.</p>
                                 <div class="main-button-yellow">
                                     <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
                                 </div>
@@ -224,72 +153,67 @@ https://templatemo.com/tm-569-edu-meeting
                     <div class="accordions is-first-expanded">
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>About Edu Meeting HTML Template</span>
+                                <span>Efficient Management</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>If you want to get the latest collection of HTML CSS templates for your websites,
-                                        you may visit <a rel="nofollow" href="https://www.toocss.com/"
-                                            target="_blank">Too CSS website</a>. If you need a working contact form
-                                        script, please visit <a href="https://templatemo.com/contact"
-                                            target="_parent">our contact page</a> for more info.</p>
+                                    {{-- <p>If you want to get the latest collection of HTML CSS templates for your websites,
+                                        you may visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">Too
+                                            CSS website</a>. If you need a working contact form
+                                        script, please visit <a href="https://templatemo.com/contact" target="_parent">our
+                                            contact page</a> for more info.</p> --}}
+                                    <p>
+                                        Efficient management is crucial for smooth operation. Edu Cloud System streamlines
+                                        all administrative tasks, helping institutions stay organized and efficient.
+                                    </p>
                                 </div>
                             </div>
                         </article>
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>HTML CSS Bootstrap Layout</span>
+                                <span>High User Satisfaction</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna,
-                                        maximus at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed
-                                        vulputate augue interdum vitae. Aliquam a elit massa.<br><br>
-                                        Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget
-                                        nibh consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio
-                                        tempus ligula, ut feugiat ex erat nec mauris. Donec viverra velit eget lectus
-                                        sollicitudin tincidunt.</p>
+                                    <p>Edu Cloud System has received an outstanding satisfaction rate, with 95% of users
+                                        reporting improved communication and operational efficiency.
+                                    </p>
                                 </div>
                             </div>
                         </article>
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>Please tell your friends</span>
+                                <span>Customizable Features </span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Ut vehicula mauris est, sed sodales justo rhoncus eu. Morbi porttitor quam velit,
-                                        at ullamcorper justo suscipit sit amet. Quisque at suscipit mi, non efficitur
-                                        velit.<br><br>
-                                        Cras et tortor semper, placerat eros sit amet, porta est. Mauris porttitor
-                                        sapien et quam volutpat luctus. Nullam sodales ipsum ac neque ultricies varius.
+                                    <p>Our system offers over 100 customizable features, allowing institutions to tailor Edu
+                                        Cloud System according to their unique needs, ensuring a perfect fit for your
+                                        educational environment.
                                     </p>
                                 </div>
                             </div>
                         </article>
                         <article class="accordion last-accordion">
                             <div class="accordion-head">
-                                <span>Share this to your colleagues</span>
+                                <span>Cloud-Based Accessibility</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Maecenas suscipit enim libero, vel lobortis justo condimentum id. Interdum et
-                                        malesuada fames ac ante ipsum primis in faucibus.<br><br>
-                                        Sed eleifend metus sit amet magna tristique, posuere laoreet arcu semper. Nulla
-                                        pellentesque ut tortor sit amet maximus. In eu libero ullamcorper, semper nisi
-                                        quis, convallis nisi.</p>
+                                    <p>With Edu Cloud System, you can access your platform 24/7 from any device, ensuring
+                                        you stay connected and productive at all times.</p>
                                 </div>
                             </div>
                         </article>
@@ -582,20 +506,20 @@ https://templatemo.com/tm-569-edu-meeting
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h2>A Few Facts About Our University</h2>
+                            <h2>A Few Facts About Our Edu Cloud</h2>
                         </div>
                         <div class="col-lg-6">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="count-area-content percentage">
-                                        <div class="count-digit">94</div>
-                                        <div class="count-title">Succesed Students</div>
+                                        <div class="count-digit">Over 500</div>
+                                        <div class="count-title">Efficient Management</div>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="count-area-content">
-                                        <div class="count-digit">126</div>
-                                        <div class="count-title">Current Teachers</div>
+                                        <div class="count-digit">95%</div>
+                                        <div class="count-title">High User Satisfaction</div>
                                     </div>
                                 </div>
                             </div>
@@ -604,14 +528,14 @@ https://templatemo.com/tm-569-edu-meeting
                             <div class="row">
                                 <div class="col-12">
                                     <div class="count-area-content new-students">
-                                        <div class="count-digit">2345</div>
-                                        <div class="count-title">New Students</div>
+                                        <div class="count-digit">more than 100</div>
+                                        <div class="count-title">Customizable Features</div>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="count-area-content">
-                                        <div class="count-digit">32</div>
-                                        <div class="count-title">Awards</div>
+                                        <div class="count-digit">24/7 access</div>
+                                        <div class="count-title">Cloud-Based Accessibility</div>
                                     </div>
                                 </div>
                             </div>
@@ -648,8 +572,8 @@ https://templatemo.com/tm-569-edu-meeting
                                     </div>
                                     <div class="col-lg-4">
                                         <fieldset>
-                                            <input name="email" type="text" id="email"
-                                                pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                                placeholder="YOUR EMAIL..." required="">
                                         </fieldset>
                                     </div>
                                     <div class="col-lg-4">
@@ -700,80 +624,13 @@ https://templatemo.com/tm-569-edu-meeting
             </div>
         </div>
         <div class="footer">
-            <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-                <br>
+            <p>Copyright © 2022 Edu Cloud System Co., Ltd. All Rights Reserved.
+                {{-- <br>
                 Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
                 <br>
                 Distibuted By: <a href="https://themewagon.com" target="_blank"
-                    title="Build Better UI, Faster">ThemeWagon</a>
+                    title="Build Better UI, Faster">ThemeWagon</a> --}}
             </p>
         </div>
     </section>
-
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset('site/products/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('site/products/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
-    <script src="{{ asset('site/products/js/isotope.min.js') }}"></script>
-    <script src="{{ asset('site/products/js/owl-carousel.js') }}"></script>
-    <script src="{{ asset('site/products/js/lightbox.js') }}"></script>
-    <script src="{{ asset('site/products/js/tabs.js') }}"></script>
-    <script src="{{ asset('site/products/js/video.js') }}"></script>
-    <script src="{{ asset('site/products/js/slick-slider.js') }}"></script>
-    <script src="{{ asset('site/products/js/custom.js') }}"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
-
-        var showSection = function showSection(section, isAnimate) {
-            var
-                direction = section.replace(/#/, ''),
-                reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-                reqSectionPos = reqSection.offset().top - 0;
-
-            if (isAnimate) {
-                $('body, html').animate({
-                        scrollTop: reqSectionPos
-                    },
-                    800);
-            } else {
-                $('body, html').scrollTop(reqSectionPos);
-            }
-
-        };
-
-        var checkSection = function checkSection() {
-            $('.section').each(function() {
-                var
-                    $this = $(this),
-                    topEdge = $this.offset().top - 80,
-                    bottomEdge = topEdge + $this.height(),
-                    wScroll = $(window).scrollTop();
-                if (topEdge < wScroll && bottomEdge > wScroll) {
-                    var
-                        currentId = $this.data('section'),
-                        reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-                    reqLink.closest('li').addClass('active').
-                    siblings().removeClass('active');
-                }
-            });
-        };
-
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function(e) {
-            if ($(this).attr('id') === 'featurePage') {
-                return; // Do nothing and allow default behavior
-            }
-            e.preventDefault();
-            showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function() {
-            checkSection();
-        });
-    </script>
-</body>
-
-</body>
-
-</html>
+@endsection
