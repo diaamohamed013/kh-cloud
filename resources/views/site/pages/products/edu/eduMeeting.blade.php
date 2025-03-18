@@ -120,6 +120,9 @@
         </div>
     </section>
 
+    <section class="upcoming-meetings" id="meetings">
+    </section>
+
     <section class="apply-now" id="apply" style="padding-top: 255px;">
         <div class="container">
             <div class="row">
