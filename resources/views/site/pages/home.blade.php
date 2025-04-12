@@ -29,7 +29,8 @@
                                         </h2>
                                         <p class="lead">With Landigoo responsive landing page template, you can promote
                                             your all hosting, domain and email services. </p>
-                                        <a href="{{route('site.contactUs')}}" class="hover-btn-new"><span>Contact Us</span></a>
+                                        <a href="{{ route('site.contactUs') }}" class="hover-btn-new"><span>Contact
+                                                Us</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="#" class="hover-btn-new"><span>Read More</span></a>
                                     </div>
@@ -55,7 +56,8 @@
                                         <p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive
                                             landing page template, you can promote your all hosting, domain and email
                                             services. </p>
-                                        <a href="{{route('site.contactUs')}}" class="hover-btn-new"><span>Contact Us</span></a>
+                                        <a href="{{ route('site.contactUs') }}" class="hover-btn-new"><span>Contact
+                                                Us</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="#" class="hover-btn-new"><span>Read More</span></a>
                                     </div>
@@ -82,7 +84,8 @@
                                             server
                                             Your Choice of any OS (CentOS, Windows, Debian, Fedora)
                                             FREE Reboots</p>
-                                        <a href="{{route('site.contactUs')}}" class="hover-btn-new"><span>Contact Us</span></a>
+                                        <a href="{{ route('site.contactUs') }}" class="hover-btn-new"><span>Contact
+                                                Us</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="#" class="hover-btn-new"><span>Read More</span></a>
                                     </div>
@@ -114,8 +117,10 @@
             <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
                     <h3>Our history</h3>
-                    <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                        quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
+                    <p class="lead">
+                        Founded with a vision to innovate, our company has grown through dedication, expertise, and a
+                        commitment to delivering outstanding digital solutions for diverse industries.
+                    </p>
                 </div>
             </div><!-- end title -->
             <div class="timeline">
@@ -123,63 +128,47 @@
                     <div class="timeline__items">
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-01">
-                                <h2>2018</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus. Lorem
-                                    ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum
-                                    lacus dapibus.</p>
+                                <h2>2024</h2>
+                                <p>
+                                    Our company is now a global player, known for delivering innovative software solutions
+                                    and outstanding customer support to a diverse client base.
+                                </p>
                             </div>
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-02">
-                                <h2>2015</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
+                                <h2>2021</h2>
+                                <p>
+                                    We strengthened our position as an industry leader, expanding our services and refining
+                                    our software to meet evolving market demands.
+                                </p>
                             </div>
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-03">
-                                <h2>2014</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
+                                <h2>2019</h2>
+                                <p>
+                                    Building on our success, we refined our offerings, focusing on delivering tailored
+                                    software solutions that addressed specific customer needs.
+                                </p>
                             </div>
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-04">
-                                <h2>2012</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
+                                <h2>2018</h2>
+                                <p>
+                                    Our team expanded, and we introduced new solutions that set the stage for future success
+                                    and deeper market engagement.
+                                </p>
                             </div>
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-01">
-                                <h2>2010</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus. Lorem
-                                    ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                        <div class="timeline__item">
-                            <div class="timeline__content img-bg-02">
-                                <h2>2007</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
-                            </div>
-                        </div>
-                        <div class="timeline__item">
-                            <div class="timeline__content img-bg-03">
-                                <h2>2004</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
-                            </div>
-                        </div>
-                        <div class="timeline__item">
-                            <div class="timeline__content img-bg-04">
-                                <h2>2002</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque
-                                    condimentum lacus dapibus.</p>
+                                <h2>2016</h2>
+                                <p>
+                                    We started with a passion for innovation and technology, laying the foundation for a
+                                    company that would grow to meet industry needs.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -194,8 +183,10 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Ready to get started?</h3>
-                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. </p>
+                <p>
+                    Let’s work together to create innovative solutions that drive your business forward. Reach out today to
+                    discuss your project.
+                </p>
             </div><!-- end title -->
 
             <div class="row">
@@ -348,7 +339,6 @@
     @include('site.include.testimonials_content')
 
     @include('site.include.partners_content')
-
 @endsection
 
 @push('home-js')

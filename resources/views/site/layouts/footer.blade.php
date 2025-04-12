@@ -6,11 +6,9 @@
                         <div class="widget-title">
                             <h3>About US</h3>
                         </div>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus
-                            bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
-                            dis montes.</p>
-                        <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.
-                        </p>
+                        We are a dynamic team dedicated to delivering high-quality software solutions. Our innovative
+                        approach, backed by expertise, ensures that every project meets the unique needs of our clients,
+                        enabling their growth and success in today’s competitive landscape.
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
@@ -20,10 +18,10 @@
                             <h3>Information Link</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="{{route('site.home')}}">Home</a></li>
-                            <li><a href="{{route('site.pricing')}}">Pricing</a></li>
-                            <li><a href="{{route('site.aboutUs')}}">About</a></li>
-                            <li><a href="{{route('site.contactUs')}}">Contact</a></li>
+                            <li><a href="{{ route('site.home') }}">Home</a></li>
+                            <li><a href="{{ route('site.pricing') }}">Pricing</a></li>
+                            <li><a href="{{ route('site.aboutUs') }}">About</a></li>
+                            <li><a href="{{ route('site.contactUs') }}">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
@@ -53,10 +51,10 @@
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
-    <script src="{{asset('site/js/all.js')}}"></script>
+    <script src="{{ asset('site/js/all.js') }}"></script>
     @stack('contact-js')
     <!-- ALL PLUGINS -->
-    <script src="{{asset('site/js/custom.js')}}"></script>
+    <script src="{{ asset('site/js/custom.js') }}"></script>
     @stack('home-js')
     </body>
 
