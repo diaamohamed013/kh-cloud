@@ -3,8 +3,10 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Testimonials</h3>
-                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. </p>
+                <p>
+                    Our clients trust us for innovative solutions, timely delivery, and exceptional support. Their
+                    satisfaction is our greatest achievement.
+                </p>
             </div><!-- end title -->
 
             <div class="row">
@@ -13,9 +15,10 @@
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed
-                                    highly
-                                    skilled, and experienced & professional team.</p>
+                                <p class="lead">
+                                    The team is always available, knowledgeable, and ready to assist. Their prompt
+                                    responses and clear guidance make all the difference.
+                                </p>
                             </div>
                             <div class="testi-meta">
                                 <img src="{{ asset('site/images/testi_01.png') }}" alt="" class="img-fluid">
@@ -28,8 +31,10 @@
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and
-                                    praising pain was born and I will give you completed.</p>
+                                <p class="lead">
+                                    Their support is outstanding, and the solutions are always efficient and tailored.
+                                    We rely on them for all our software needs.
+                                </p>
                             </div>
                             <div class="testi-meta">
                                 <img src="{{ asset('site/images/testi_02.png') }}" alt="" class="img-fluid">
@@ -42,8 +47,11 @@
                         <div class="testimonial clearfix">
                             <div class="desc">
                                 <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids
-                                    pleasure itself, because it is very pursue pleasure. </p>
+                                <p class="lead">
+                                    They listened carefully, delivered fast, and exceeded expectations. Their creative
+                                    approach and strong technical skills made a real difference in our project’s
+                                    success.
+                                </p>
                             </div>
                             <div class="testi-meta">
                                 <img src="{{ asset('site/images/testi_03.png') }}" alt="" class="img-fluid ">
@@ -52,47 +60,6 @@
                             <!-- end testi-meta -->
                         </div>
                         <!-- end testimonial -->
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed
-                                    highly
-                                    skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="{{ asset('site/images/testi_01.png') }}" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and
-                                    praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="{{ asset('site/images/testi_02.png') }}" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids
-                                    pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="{{ asset('site/images/testi_03.png') }}" alt="" class="img-fluid">
-                                <h4>Venanda Mercy </h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div><!-- end testimonial -->
                     </div><!-- end carousel -->
                 </div><!-- end col -->
             </div><!-- end row -->
