@@ -351,7 +351,11 @@ header
     letter-spacing: 1px;
 }
 
-.header-area .main-nav .nav li:hover a,
+.navLink .dropdown-menu a {
+    color: #333 !important;
+}
+
+.header-area .main-nav .nav li:hover a:not(.dropdown-item), .navLink .dropdown-menu a:hover,
 .header-area .main-nav .nav li a.active {
     color: #f5a425 !important;
 }
@@ -571,7 +575,7 @@ header
     display: flex;
 }
 
-.clr{
+.clr {
     clear: both;
 }
 
@@ -665,6 +669,10 @@ header
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
         color: #f5a425 !important;
+    }
+
+    .navLink .dropdown-menu a {
+        color: #333 !important;
     }
 
     .header-area .main-nav .nav li.has-sub ul.sub-menu {

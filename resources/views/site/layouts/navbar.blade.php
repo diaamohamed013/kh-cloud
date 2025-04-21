@@ -21,7 +21,7 @@
                  <span class="icon-bar"></span>
              </button>
              <div class="collapse navbar-collapse" id="navbars-host">
-                 <ul class="navbar-nav ml-auto">
+                 <ul class="navbar-nav mx-auto">
                      <li class="nav-item @if (request()->is('home*')) active @endif">
                          <a class="nav-link" href="{{ route('site.home') }}">
                              Home
@@ -54,6 +54,14 @@
                          <a class="nav-link" href="{{ route('site.contactUs') }}">
                              Contact
                          </a>
+                     </li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="dropdown-a"
+                             data-toggle="dropdown">Lang </a>
+                         <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                             <a class="dropdown-item" href="#">Arabic</a>
+                             <a class="dropdown-item" href="#">English</a>
+                         </div>
                      </li>
                  </ul>
                  <ul class="nav navbar-nav navbar-right">
