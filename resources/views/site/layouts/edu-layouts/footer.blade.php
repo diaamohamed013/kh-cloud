@@ -58,6 +58,11 @@
             showSection($(this).attr('href'), true);
         });
 
+        $('.navLink .dropdown-toggle').on('click', function(e) {
+            e.preventDefault();
+            $(".dropdown-menu").toggle();
+        });
+
         $(window).scroll(function() {
             checkSection();
         });
