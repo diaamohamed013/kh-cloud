@@ -1,10 +1,18 @@
 @extends('site.pages.products.master')
 
 @push('feature-css')
-    <link rel="stylesheet" href="https://edustepup.com/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://edustepup.com/assets/css/style.min.css">
-    <link rel="stylesheet" href="https://edustepup.com/assets/css/style-en.min.css">
     <style>
+        html,
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            background-color: #fff;
+            font-size: 16px;
+            -ms-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
         .header-feature {
             background-color: #fff !important;
             height: 80px !important;
@@ -14,10 +22,9 @@
             right: 0;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
         }
-
-        .header-feature .main-nav .nav li a,
+        
         .header-feature .main-nav .logo {
-            color: #333 !important;
+            color: #333;
         }
 
         img {

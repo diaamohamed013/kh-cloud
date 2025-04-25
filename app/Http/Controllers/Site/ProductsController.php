@@ -11,6 +11,11 @@ class ProductsController extends Controller
         return view('site.pages.products.edu.eduMeeting');
     }
 
+    public function product_subscribe()
+    {
+        return view('site.pages.products.edu.product_subscribe');
+    }
+
     public function features()
     {
         return view('site.pages.products.edu.features');

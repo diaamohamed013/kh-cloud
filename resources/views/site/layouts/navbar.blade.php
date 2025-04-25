@@ -21,7 +21,7 @@
                  <span class="icon-bar"></span>
              </button>
              <div class="collapse navbar-collapse" id="navbars-host">
-                 <ul class="navbar-nav mx-auto">
+                 <ul class="navbar-nav ml-auto">
                      <li class="nav-item @if (request()->is('home*')) active @endif">
                          <a class="nav-link" href="{{ route('site.home') }}">
                              Home
@@ -55,19 +55,19 @@
                              Contact
                          </a>
                      </li>
-                     <li class="nav-item dropdown">
-                         <a class="nav-link dropdown-toggle" href="#" id="dropdown-a"
-                             data-toggle="dropdown">Lang </a>
-                         <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                             <a class="dropdown-item" href="#">Arabic</a>
-                             <a class="dropdown-item" href="#">English</a>
-                         </div>
-                     </li>
+                     <div style="padding: 6px 0px;">
+                         {{-- <a href="#" class="nav-item nav-link text-capitalize" onclick="selected()">
+                             <i class="flag-icon flag-icon-gb"></i>
+                         </a> --}}
+                         <a href="#" class="nav-item nav-link text-capitalize" onclick="selected()">
+                             <i class="flag-icon flag-icon-eg"></i>
+                         </a>
+                     </div>
                  </ul>
-                 <ul class="nav navbar-nav navbar-right">
+                 {{-- <ul class="nav navbar-nav navbar-right">
                      <li><a class="hover-btn-new log" href="#" data-toggle="modal"
                              data-target="#login"><span>Customer Login</span></a></li>
-                 </ul>
+                 </ul> --}}
              </div>
          </div>
      </nav>
