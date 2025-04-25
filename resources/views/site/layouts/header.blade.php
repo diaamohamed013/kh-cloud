@@ -20,6 +20,7 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="{{asset('site/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('site/css/flag-icon-css/css/flag-icon.min.css')}}">
 <!-- Site CSS -->
 <link rel="stylesheet" href="{{asset('site/css/style.css')}}">
 <!-- ALL VERSION CSS -->

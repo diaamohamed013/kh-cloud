@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/english-font/Montserrat.eot);
+    src: url(../fonts/english-font/Montserrat.woff) format("woff"), url(../fonts/english-font/Montserrat.ttf) format("truetype"), url(../fonts/english-font/Montserrat.otf) format("opentype")
+}
+
+body,
+html {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    direction: ltr
+}
+
+.navbar-brand {
+    float: right
+}
+
+.dropdown-item {
+    text-align: left
+}
+
+.request-trial-show {
+    background-image: url(../images/home-slider-en.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left
+}
+
+.programs-intro .program-data .video-btn img {
+    width: 30%
+}
+
+.programs-intro .program-img {
+    float: right
+}
+
+.programs-intro .program2 .program-img img {
+    float: left
+}
+
+.program-explanation .program-content p {
+    text-align: left
+}
+
+.program-explanation .program-content p span {
+    float: right
+}
+
+.blog .blog-content {
+    text-align: left;
+    margin: 30px 0 125px
+}
+
+.slick-slide {
+    text-align: left
+}
+
+.clients-reviews-slider .clientImg {
+    float: left
+}
+
+.clientData img {
+    float: left
+}
+
+.slick-slide p {
+    margin: 20px auto
+}
+
+.program-page .program-content img {
+    float: left
+}
+
+.privacy-policy-content ul {
+    list-style: decimal
+}
+
+.contactus .contactTelephones p {
+    direction: rtl
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-align: left!important;
+    height: 100%!important
+}
+
+.comments-content .page-title span:before {
+    content: "";
+    left: -40px;
+    right: auto;
+}

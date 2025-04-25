@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="{{ asset('site/products/css/fontawesome.css') }}">
     <link rel="stylesheet" href="{{ asset('site/products/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('site/products/css/lightbox.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/products/css/flag-icon-css/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/products/css/style.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('site/products/css/style-en.min.css') }}">
     <link rel="stylesheet" href="{{ asset('site/products/css/templatemo-edu-meeting.css') }}">
     @stack('feature-css')
 </head>

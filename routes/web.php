@@ -16,6 +16,7 @@ Route::as('site.')->group(function(){
     Route::get('features', [HomeController::class, 'features'])->name('features');
     Route::get('pricing', [HomeController::class, 'pricing'])->name('pricing');
     Route::get('products', [ProductsController::class, 'index'])->name('products');
+    Route::get('products/product_subscribe', [ProductsController::class, 'product_subscribe'])->name('products.product_subscribe');
     Route::get('products-features', [ProductsController::class, 'features'])->name('products.features');
     Route::get('contact-us', [ContactController::class, 'index'])->name('contactUs');
 });

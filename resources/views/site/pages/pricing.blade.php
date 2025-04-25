@@ -12,12 +12,12 @@
     @include('site.include.breadcrumb')
     <div id="pricing-box" class="section wb">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pricingTable">
                         <div class="pricingTable-header">
                             <span class="heading">
-                                <h3>Standard</h3>
+                                <h3>Edu Cloud System</h3>
                             </span>
                             <span class="price-value">$15<span class="month">month</span> <span>Lorem ipsum
                                 </span><span>Lorem ipsum dolor sit amet</span></span>
@@ -35,12 +35,12 @@
                         </div><!-- /  CONTENT BOX-->
 
                         <div class="pricingTable-sign-up">
-                            <a href="#" class="hover-btn-new"><span>sign up</span></a>
+                            <a href="{{ route('site.products.product_subscribe') }}" class="hover-btn-new" target="_b"><span>Subscribe</span></a>
                         </div><!-- BUTTON BOX-->
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pricingTable pink">
                         <div class="pricingTable-header">
                             <span class="heading">
@@ -62,12 +62,12 @@
                         </div><!-- /  CONTENT BOX-->
 
                         <div class="pricingTable-sign-up">
-                            <a href="#" class="hover-btn-new"><span>sign up</span></a>
+                            <a href="{{ route('site.products.product_subscribe') }}" class="hover-btn-new" target="_b"><span>Subscribe</span></a>
                         </div><!-- BUTTON BOX-->
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="pricingTable orange">
                         <div class="pricingTable-header">
                             <span class="heading">
@@ -89,7 +89,7 @@
                         </div><!-- /  CONTENT BOX-->
 
                         <div class="pricingTable-sign-up">
-                            <a href="#" class="hover-btn-new"><span>sign up</span></a>
+                            <a href="{{ route('site.products.product_subscribe') }}" class="hover-btn-new" target="_b"><span>Subscribe</span></a>
                         </div><!-- BUTTON BOX-->
                     </div>
                 </div>

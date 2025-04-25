@@ -206,11 +206,11 @@
                 <div class="col-md-12">
                     <div class="tab-content">
                         <div class="tab-pane active fade show" id="tab1">
-                            <div class="row text-center">
-                                <div class="col-md-4">
+                            <div class="row text-center justify-content-center">
+                                <div class="col-lg-4 col-md-6 mb-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
-                                            <h2>Shared Hosting</h2>
+                                            <h2>Edu Cloud System</h2>
                                             <h3>$85/month</h3>
                                         </div>
                                         <div class="pricing-table-space"></div>
@@ -222,11 +222,11 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6 mb-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>WordPress Hosting</h2>
@@ -241,12 +241,12 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6 mb-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>Reseller Hosting</h2>
@@ -261,7 +261,7 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -270,10 +270,10 @@
 
                         <div class="tab-pane fade" id="tab2">
                             <div class="row text-center">
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6 mb-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
-                                            <h2>Shared Hosting</h2>
+                                            <h2>Edu Cloud System</h2>
                                             <h3>$85/Year</h3>
                                         </div>
                                         <div class="pricing-table-space"></div>
@@ -285,11 +285,11 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6 mb-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>WordPress Hosting</h2>
@@ -304,12 +304,12 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6 mb-4">
                                     <div class="pricing-table pricing-table-highlighted">
                                         <div class="pricing-table-header grd1">
                                             <h2>Reseller Hosting</h2>
@@ -324,7 +324,7 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
                                         </div>
                                     </div>
                                 </div>
