@@ -227,7 +227,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Popular Courses</h2>
+                        <h2>Our Modules</h2>
                     </div>
                 </div>
             </div>
