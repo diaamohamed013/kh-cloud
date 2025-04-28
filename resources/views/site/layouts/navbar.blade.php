@@ -2,7 +2,7 @@
  <header class="top-navbar">
      <nav class="navbar navbar-expand-lg navbar-light navBackground">
          <div class="container-fluid">
-             <a class="navbar-brand d-flex justify-content-center align-items-center mb-0"
+             <a class="navbar-brand d-flex justify-content-center align-items-center mb-0 zoomResponsive"
                  href="{{ route('site.home') }}">
                  <img src="{{ asset('site/images/logo.png') }}" alt="" width="70" />
                  <span class="mx-2 d-flex flex-column logoName">
@@ -21,7 +21,7 @@
                  <span class="icon-bar"></span>
              </button>
              <div class="collapse navbar-collapse" id="navbars-host">
-                 <ul class="navbar-nav ml-auto">
+                 <ul class="navbar-nav mx-auto">
                      <li class="nav-item @if (request()->is('home*')) active @endif">
                          <a class="nav-link" href="{{ route('site.home') }}">
                              Home
@@ -55,13 +55,33 @@
                              Contact
                          </a>
                      </li>
-                     <div style="padding: 6px 0px;">
-                         {{-- <a href="#" class="nav-item nav-link text-capitalize" onclick="selected()">
-                             <i class="flag-icon flag-icon-gb"></i>
-                         </a> --}}
+                     {{-- <div style="padding: 6px 0px;">
                          <a href="#" class="nav-item nav-link text-capitalize" onclick="selected()">
-                             <i class="flag-icon flag-icon-eg"></i>
+                             ع
                          </a>
+                         <a href="#" class="nav-item nav-link text-capitalize" onclick="selected()">
+                             EN
+                         </a>
+                     </div> --}}
+                     <div class="selectCategory">
+                         <div class="categories">
+                             <i class="fa fa-chevron-down" aria-hidden="true" id="IconArrow"></i>
+                             <p class="mb-0 mx-1" id="selectText">
+                                 EN
+                             </p>
+                             <ul id="lists">
+                                 <li class="categoryOptions">
+                                     <a href="http://localhost/sahelbooks.com/home/switch-lang/english">
+                                         ع
+                                     </a>
+                                 </li>
+                                 <li class="categoryOptions">
+                                     <a href="http://localhost/sahelbooks.com/home/switch-lang/arabic">
+                                         EN
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
                      </div>
                  </ul>
                  {{-- <ul class="nav navbar-nav navbar-right">

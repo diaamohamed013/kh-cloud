@@ -29,11 +29,34 @@
 <body>
     <!-- Sub Header -->
     <div class="sub-header">
-        <div class="container">
+        <div class="container d-none d-lg-block">
             <div class="row">
                 <div class="col-lg-8 col-sm-8">
                     <div class="left-content">
-                        <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p>
+                        <div class="d-inline-flex align-items-center" style="height: 45px;">
+                            <small class="mx-1 text-light" dir="ltr">
+                                <i class="fa fa-map-marker mx-1"></i>
+                                WORLD WIDE
+                            </small>
+                            <a href="tel:01126888838" rel="noopener noreferrer">
+                                <small class="mx-1 text-light" dir="ltr">
+                                    <i class="fa fa-phone mx-1"></i>
+                                    +201127878753
+                                </small>
+                            </a>
+                            <a href="tel:01126888838" rel="noopener noreferrer">
+                                <small class="mx-1 text-light" dir="ltr">
+                                    <i class="fa fa-phone mx-1"></i>
+                                    +201126888838
+                                </small>
+                            </a>
+                            <a href="mailto:info@khwarizmiworld.com" rel="noopener noreferrer">
+                                <small class="mx-1 text-light" dir="ltr">
+                                    <i class="fa fa-envelope mx-1"></i>
+                                    info@khwarizmiworld.com
+                                </small>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">

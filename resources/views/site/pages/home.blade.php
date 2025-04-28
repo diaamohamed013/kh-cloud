@@ -222,7 +222,8 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                                    Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +242,8 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                                    Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -261,7 +263,8 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                                    Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -285,7 +288,8 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                                    Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -304,7 +308,8 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                                    Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -324,7 +329,8 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order Now</span></a>
+                                            <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                                    Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,5 +356,22 @@
             verticalStartPosition: 'left',
             visibleItems: 4
         });
+        const selectCat = document.querySelector(".categories");
+        const listCat = document.getElementById("lists");
+        const arrowIcon = document.getElementById("IconArrow");
+        const catOptions = document.querySelectorAll(".categoryOptions");
+        const selectText = document.getElementById("selectText");
+
+
+        selectCat.addEventListener("click", function() {
+            listCat.classList.toggle("open");
+            arrowIcon.classList.toggle("openIcon");
+        });
+
+        for (option of catOptions) {
+            option.addEventListener("click", function() {
+                selectText.innerHTML = this.innerText;
+            });
+        }
     </script>
 @endpush

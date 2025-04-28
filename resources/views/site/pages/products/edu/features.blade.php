@@ -2,29 +2,8 @@
 
 @push('feature-css')
     <style>
-        html,
-        body {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            background-color: #fff;
-            font-size: 16px;
-            -ms-text-size-adjust: 100%;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
         .header-feature {
-            background-color: #fff !important;
-            height: 80px !important;
-            position: sticky !important;
-            top: 40;
-            left: 0;
-            right: 0;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
-        }
-        
-        .header-feature .main-nav .logo {
-            color: #333;
+            position: sticky;
         }
 
         img {
@@ -38,6 +17,19 @@
         ul.featuresEdu li {
             list-style: disc;
         }
+
+        @media(max-width: 992px) {
+            .header-feature {
+                position: fixed;
+            }
+        }
+
+        @media(max-width: 769px) {
+            main {
+                margin-top: 130px
+            }
+        }
+
     </style>
 @endpush
 
