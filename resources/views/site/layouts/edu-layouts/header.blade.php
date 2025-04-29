@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('site/products/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{ asset('site/products/css/fontawesome.css') }}">

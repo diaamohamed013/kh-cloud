@@ -9,12 +9,52 @@
             width: auto;
         }
 
-        .slick-initialized .slick-slide {
-            height: auto;
+        .bg-thirdColor {
+            background-color: #53665dd6;
         }
 
-        ul.featuresEdu li {
-            list-style: disc;
+        .middle {
+            width: 100%;
+            text-align: center;
+        }
+
+        .middle .notHaveAccount,
+        .middle .haveAccount {
+            width: calc((100% / 2) - 10px);
+            margin: 0 5px;
+        }
+
+        .middle .box {
+            width: 100%;
+            padding: 0 20px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #06a3da;
+        }
+
+        .middle .box span:before {
+            font-size: 25px;
+            font-family: FontAwesome;
+            display: block;
+            transition: all 300ms ease-in-out;
+            font-weight: normal;
+            color: white;
+        }
+
+        .middle .haveAccount span:before {
+            content: "\f090";
+        }
+
+        .middle .notHaveAccount span:before {
+            content: "\f234";
+        }
+
+        .middle .box span {
+            font-size: 16px;
+            user-select: none;
         }
 
         @media(max-width: 992px) {
@@ -29,6 +69,13 @@
             }
         }
 
+        @media (max-width: 768px) {
+            .middle .notHaveAccount,
+            .middle .haveAccount {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
     </style>
 @endpush
 @section('content')
@@ -39,10 +86,10 @@
                     <div class="mb-5">
                         <img class="img-fluid w-100 rounded mb-5" src="{{ asset('site/products/images/course-02.jpg') }}"
                             alt="Course Two">
-                        <form id="exam-form" method="GET" action="">
+                        <form id="exam-form" method="GET" action="{{ route('site.signup') }}">
                             <div class="mb-3">
                                 <select name="IDPeriodPackage" id='periodPackageSelect'
-                                    class="mb-3 form-select form-control-lg bg-thirdColor mx-auto"style="text-align:center; font-size:1.1rem;"
+                                    class="mb-3 form-select form-control-lg bg-thirdColor mx-auto text-white"style="text-align:center; font-size:1.1rem;"
                                     required>
                                     {{-- <option value="">{{ trans('website.PeriodSelect') }}</option>
                                     @foreach ($PackagePeriods as $period)
@@ -62,7 +109,7 @@
                                     <strong>{{ trans('website.Attention') }}</strong>{{ trans('website.SelectPeriodError') }}
                                 </div> --}}
                                 <select name="currencySelect" id='currencySelect'
-                                    class="mb-3 form-select form-control-lg bg-thirdColor mx-auto"style="text-align:center; font-size:1.1rem;"
+                                    class="mb-3 form-select form-control-lg bg-thirdColor mx-auto text-white"style="text-align:center; font-size:1.1rem;"
                                     required>
                                     {{-- <option value=''>{{ trans('form.ChooseCurrency') }}</option>
                                     <option value="DOLAR">{{ trans('form.Dolar') }}</option>
@@ -136,12 +183,12 @@
                 <div class="modal-body">
                     <div class="middle d-flex justify-content-center flex-column flex-md-row">
                         <label class="haveAccount" style="cursor: pointer">
-                            <div class="box bg-primary">
+                            <div class="box">
                                 <span class="text-white">Already Have Account</span>
                             </div>
                         </label>
                         <label class="notHaveAccount" style="cursor: pointer">
-                            <div class="box bg-primary">
+                            <div class="box">
                                 <span class="text-white">Don't Have Account</span>
                             </div>
                         </label>
@@ -151,3 +198,54 @@
         </div>
     </div>
 @endsection
+@push('feature-js')
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var form = document.getElementById("exam-form");
+            $('.haveAccount').on("click", function() {
+                $(form).attr('action', '{{ route('site.login.system') }}');
+                form.submit();
+            });
+            $('.notHaveAccount').on("click", function() {
+                $(form).attr('action', '{{ route('site.signup') }}');
+                form.submit();
+            });
+            $(document).on('change', '#periodPackageSelect', function() {
+                var Currency = '';
+                var IDPeriodPackage = $(this).val();
+                if (IDPeriodPackage != '') {
+                    $('#errortext').hide();
+                }
+                if (IDPeriodPackage != '' && $('#currencySelect').val() != '') {
+                    $('#submitExamPackage').removeAttr("disabled");
+                    $('#checkAccountButtonExam').removeAttr("disabled");
+                } else {
+                    $("#submitExamPackage").prop("disabled", true);
+                    $("#checkAccountButtonExam").prop("disabled", true);
+                }
+                if (!$('#currencySelect').val()) {
+                    Currency = 'POUND';
+                }
+            });
+            $(document).on('change', '#currencySelect', function() {
+                var Currency = $(this).val();
+                var IDPeriodPackage = $('#periodPackageSelect').val();
+                if (IDPeriodPackage != '') {
+                    $('#errortext').hide();
+                }
+                if (IDPeriodPackage != '' && $('#currencySelect').val() != '') {
+                    $('#submitExamPackage').removeAttr("disabled");
+                    $('#checkAccountButtonExam').removeAttr("disabled");
+                } else {
+                    $("#submitExamPackage").prop("disabled", true);
+                    $("#checkAccountButtonExam").prop("disabled", true);
+                }
+                if (IDPeriodPackage == '') {
+                    $('#errortext').show();
+                } else {
+                    $('#errortext').hide();
+                }
+            });
+        });
+    </script>
+@endpush

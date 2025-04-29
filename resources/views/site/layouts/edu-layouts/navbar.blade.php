@@ -11,9 +11,9 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav navLink">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#courses">Modules</a></li>
-                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                            <li class="scroll-to-section"><a href="{{url('products')}}/#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="{{url('products')}}/#courses">Modules</a></li>
+                            <li class="scroll-to-section"><a href="{{url('products')}}/#contact">Contact Us</a></li>
                             <li class="scroll-to-section featurePageContainer"
                                 style="background-color: #f5a425 ; border-radius: 5px; color: #fff !important;">
                                 <a href="{{ route('site.products.features') }}" target="_b" id="featurePage">

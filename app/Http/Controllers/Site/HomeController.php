@@ -25,4 +25,15 @@ class HomeController extends Controller
     {
         return view('site.pages.pricing');
     }
+
+    public function GetCities(Request $request)
+    {
+
+        // $cities = City::where("country_id", $request->country_id)
+
+        //     ->get(['city_name_ar', 'city_name_en', 'id']);
+        $cities = 'Cairo';
+
+        return $cities;
+    }
 }

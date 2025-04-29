@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Site\ContactController;
 use App\Http\Controllers\Site\HomeController;
 use App\Http\Controllers\Site\ProductsController;
@@ -19,4 +20,8 @@ Route::as('site.')->group(function(){
     Route::get('products/product_subscribe', [ProductsController::class, 'product_subscribe'])->name('products.product_subscribe');
     Route::get('products-features', [ProductsController::class, 'features'])->name('products.features');
     Route::get('contact-us', [ContactController::class, 'index'])->name('contactUs');
+    Route::get('cities', [HomeController::class, 'GetCities'])->name('cities.get');
+    Route::get('signup', [AuthController::class, 'SignUp'])->name(name: 'signup');
+    Route::post('signup-submit', [AuthController::class, 'SignUpSubmit'])->name('signup.submit');
+    Route::get('login/system', [AuthController::class, 'LoginSystem'])->name('login.system')->middleware('guest');
 });

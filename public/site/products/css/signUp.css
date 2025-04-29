@@ -1,0 +1,565 @@
+/*form styles*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+
+:root {
+    --primary: #06a3da;
+    --thirdColor: #9c8321;
+    --secondary: #4ad7d1;
+    /* --light: #4ad7d1; */
+    --dark: #001730;
+    --form: #fe4a49;
+    --secondary: #34ad54;
+    --light: #eef9ff;
+    --dark: #091e3e;
+}
+
+/* .sign-up-page {
+    background-image: url(../../images/bg.jpg);
+} */
+
+#msform {
+    position: relative;
+}
+
+#msform fieldset {
+    background: #fff;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    #msform fieldset {
+        width: 100%;
+    }
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+/* #msform input,
+#msform select,
+#msform textarea {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  font-size: 13px;
+} */
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: var(--primary);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px var(--primary);
+}
+
+/*headings*/
+.fs-title {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 25%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 20px;
+    color: #333;
+    background: #eee;
+    border-radius: 50px;
+    margin: 0 auto 5px auto;
+    position: relative;
+    z-index: 3;
+    /* text-align: center; */
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #eee;
+    position: absolute;
+    left: -50%;
+    top: 19px;
+    z-index: 1;
+    /*put it behind the numbers*/
+}
+
+#progressbar.right li:after {
+    right: -50%;
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: var(--dark);
+    color: white;
+}
+
+.form-select.rtl {
+    background-position: left calc(0.375em + 0.1875rem) center !important;
+}
+
+.profile-pic {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+    width: 165px;
+    margin: auto;
+}
+
+.ID-pic {
+    width: 100%;
+    overflow: hidden;
+}
+
+.coursesArea {
+    padding: 10px;
+    width: 100%;
+    min-height: 150px !important;
+    resize: none;
+}
+
+.btnOptions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+.round {
+    border-radius: 34px;
+}
+
+.form-control-img {
+    margin: auto;
+    width: 172px;
+    border: 3px solid #44494e45;
+    border-radius: 50%;
+}
+
+.ID-img {
+    width: 100px;
+    border: unset;
+}
+
+.form-control-img.is-invalid {
+    border: 3px solid rgb(220, 53, 69);
+}
+
+.form-control-img.is-valid {
+    border: 3px solid #198754;
+}
+
+.select2-results__option[aria-selected], .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 15px !important;
+    font-weight: 400;
+    padding: .375rem .75rem;
+}
+
+.select2-container {
+    display: block;
+    width: 100% !important;
+}
+
+.select2-container .select2-selection--single {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    border-radius: .375rem;
+    -webkit-border-radius: .375rem;
+    -moz-border-radius: .375rem;
+    -ms-border-radius: .375rem;
+    -o-border-radius: .375rem;
+}
+
+.is-invalid~.select2 .select2-selection {
+    border-color: var(--bs-danger);
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.is-valid~.select2 .select2-selection {
+    border-color: var(--bs-success);
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.date-input.is-invalid {
+    border-color: var(--bs-danger) !important;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: left calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.date-input.is-valid {
+    border-color: var(--bs-success) !important;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: left calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.datePicker-container .datePicker input {
+    height: 38px;
+}
+
+.profile-pic input {
+    width: 0;
+    /* display: none; */
+}
+
+.profile-pic img {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+
+.ID-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-pic .-label {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+
+.ID-pic .-label {
+    height: 100px;
+    width: 100%;
+}
+
+.profile-pic:hover .-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+
+.ID-pic:hover .-label {
+    flex-direction: column;
+}
+
+.profile-pic span {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+
+.ID-pic span {
+    height: auto;
+}
+
+.radio {
+    display: flex;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.radio .option {
+    background: #fff;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+    .radio .option {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .radio .option {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .radio {
+        flex-direction: column;
+    }
+
+    .radio .option {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    #progressbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #progressbar li:after {
+        display: none;
+    }
+}
+
+.radio .option .dot {
+    height: 20px;
+    width: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 5px;
+}
+
+.radio .option .dot::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background: #0069d9;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+/* .option-1:checked:checked~.option-1,
+.option-2:checked:checked~.option-2 {
+    border-color: #0069d9;
+    background: #0069d9;
+} */
+
+.option-1:checked:checked~.option-1 .dot,
+.option-2:checked:checked~.option-2 .dot {
+    background: #d9d9d9;
+}
+
+.option-1:checked:checked~.option-1 .dot::before,
+.option-2:checked:checked~.option-2 .dot::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.radio .option span {
+    font-size: 18px;
+    color: #001730;
+}
+
+/* .option-1:checked:checked~.option-1 span,
+.option-2:checked:checked~.option-2 span {
+    color: #fff;
+} */
+
+.alert .inner {
+    display: block;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 3px;
+    border: 1px solid rgb(180, 180, 180);
+    background-color: rgb(212, 212, 212);
+}
+
+.alert.info .inner {
+    border: 1px solid rgb(188, 232, 241);
+    background-color: rgb(217, 237, 247);
+}
+
+.alert.info .inner,
+.alert.info .close {
+    color: rgb(58, 135, 173);
+}
+
+.alert.warning .inner {
+    border: 1px solid rgb(251, 238, 213);
+    background-color: rgb(252, 248, 227);
+}
+
+.alert.warning .inner {
+    color: rgb(192, 152, 83);
+}
+
+/* .right .form-control.is-invalid:not(.PhoneNumber),
+.was-validated .form-control:invalid {
+    background-position: calc(0.375em + 0.1875rem) center;
+} */
+
+/* .right .form-control.is-valid:not(.PhoneNumber),
+.was-validated .form-control:valid {
+    background-position: calc(0.375em + 0.1875rem) center;
+} */
+
+/* .right .form-select.is-invalid,
+.was-validated .form-select:invalid {
+  background-position: calc(0.375em + 0.1875rem) center;
+} */
+
+.iti {
+    display: block !important;
+    direction: ltr;
+    /* z-index: 1222; */
+}
+
+.text-thirdColor {
+    color: var(--thirdColor) !important;
+}
+
+.inValidPhone {
+    border: 1px solid var(--bs-danger);
+}
+
+.validPhone {
+    border: 1px solid var(--bs-success);
+}
+
+.hide {
+    display: none;
+}
