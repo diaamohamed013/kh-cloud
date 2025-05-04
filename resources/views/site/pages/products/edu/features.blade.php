@@ -29,14 +29,70 @@
                 margin-top: 130px
             }
         }
-
     </style>
 @endpush
 
 @section('content')
     <!-- Start Main Content -->
     <main class="fetaure-page-main">
-
+        <div class="our-courses bg-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 mb-5">
+                        <div class="item h-100">
+                            <div class="down-content h-100" style="box-shadow: 0 0 2px rgba(0, 0, 0, .3);">
+                                <img src="{{ asset('site/products/images/course-02.jpg') }}" alt="Course Two" class="img-fluid w-100">
+                                <h4>
+                                    If you need system for
+                                    <strong class="moduleName">Courses</strong>
+                                </h4>
+                                <div class="info text-center">
+                                    <a class="btn py-3" href="{{ route('site.products.product_subscribe') }}"
+                                        style="background: #f5a425; color: #fff; box-shadow: none;">
+                                        Subscribe Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5">
+                        <div class="item h-100">
+                            <div class="down-content h-100" style="box-shadow: 0 0 2px rgba(0, 0, 0, .3);">
+                                <img src="{{ asset('site/products/images/course-02.jpg') }}" alt="Course Two" class="img-fluid w-100">
+                                <h4>
+                                    If you need system for
+                                    <strong class="moduleName">Nursery</strong>
+                                </h4>
+                                <div class="info text-center">
+                                    <a class="btn py-3" href="{{ route('site.products.product_subscribe') }}"
+                                        style="background: #f5a425; color: #fff; box-shadow: none;">
+                                        Subscribe Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5">
+                        <div class="item h-100">
+                            <div class="down-content h-100" style="box-shadow: 0 0 2px rgba(0, 0, 0, .3);">
+                                <img src="{{ asset('site/products/images/course-02.jpg') }}" alt="Course Two" class="img-fluid w-100">
+                                <h4>
+                                    If you need system for
+                                    <strong class="moduleName">Courses & Nursery</strong>
+                                </h4>
+                                <div class="info text-center">
+                                    <a class="btn py-3" href="{{ route('site.products.product_subscribe') }}"
+                                        style="background: #f5a425; color: #fff; box-shadow: none;">
+                                        Subscribe Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
         <div class="features-page">
             <div class="features-header">
                 <h1 class="green-color text-center wow fadeInUp">Features of EDU Cloud System</h1>

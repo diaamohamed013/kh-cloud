@@ -227,16 +227,19 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Modules</h2>
+                        <h2>Our Pricing</h2>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="item">
-                        <div class="down-content">
+                    <div class="item h-100">
+                        <div class="down-content h-100">
                             <img src="{{ asset('site/products/images/course-02.jpg') }}" alt="Course Two">
-                            <h4>Courses</h4>
+                            <h4>
+                                If you need system for
+                                <strong class="moduleName">Courses</strong>
+                            </h4>
                             <div class="info text-center">
                                 <a class="btn py-3" href="{{ route('site.products.product_subscribe') }}"
                                     style="background: #f5a425; color: #fff; box-shadow: none;">
@@ -247,10 +250,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="item">
-                        <div class="down-content">
+                    <div class="item h-100">
+                        <div class="down-content h-100">
                             <img src="{{ asset('site/products/images/course-02.jpg') }}" alt="Course Two">
-                            <h4>Nursery</h4>
+                            <h4>
+                                If you need system for
+                                <strong class="moduleName">Nursery</strong>
+                            </h4>
                             <div class="info text-center">
                                 <a class="btn py-3" href="{{ route('site.products.product_subscribe') }}"
                                     style="background: #f5a425; color: #fff; box-shadow: none;">
@@ -261,10 +267,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
-                    <div class="item">
-                        <div class="down-content">
+                    <div class="item h-100">
+                        <div class="down-content h-100">
                             <img src="{{ asset('site/products/images/course-02.jpg') }}" alt="Course Two">
-                            <h4>Courses & Nursery</h4>
+                            <h4>
+                                If you need system for
+                                <strong class="moduleName">Courses & Nursery</strong>
+                            </h4>
                             <div class="info text-center">
                                 <a class="btn py-3" href="{{ route('site.products.product_subscribe') }}"
                                     style="background: #f5a425; color: #fff; box-shadow: none;">

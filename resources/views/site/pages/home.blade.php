@@ -193,62 +193,55 @@
                 <div class="col-md-12">
                     <div class="row text-center justify-content-center">
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="pricing-table pricing-table-highlighted">
+                            <div class="pricing-table pricing-table-highlighted h-100">
                                 <div class="pricing-table-header grd1">
                                     <h2>Edu Cloud System</h2>
-                                    <h3>$85/month</h3>
                                 </div>
                                 <div class="pricing-table-space"></div>
                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                    <p>
+                                        EDU Cloud System is a comprehensive and flexible solution for managing nurseries,
+                                        educational institutes, academies, and learning centers. It enables you to organize
+                                        and manage all aspects of the educational institution with high efficiency.
+                                    </p>
                                 </div>
                                 <div class="pricing-table-sign-up">
-                                    <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                    <a href="{{ route('site.products.features') }}" class="hover-btn-new" target="_b"><span>Order
                                             Now</span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="pricing-table pricing-table-highlighted">
+                            <div class="pricing-table pricing-table-highlighted h-100">
                                 <div class="pricing-table-header grd1">
-                                    <h2>WordPress Hosting</h2>
-                                    <h3>$59/month</h3>
+                                    <h2>Khwarizmiworld platform</h2>
                                 </div>
                                 <div class="pricing-table-space"></div>
                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
-                                    <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
-                                    <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
-                                    <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
-                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                    <p>
+                                        Al-Khwarizmi platform is an integrated platform for mental arithmetic, which seeks
+                                        to create a generation of geniuses and competent trainers, by providing global
+                                        training opportunities, with interactive content and an endless number of electronic
+                                        questions
+                                    </p>
                                 </div>
                                 <div class="pricing-table-sign-up">
-                                    <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                    <a href="https://www.khwarizmiworld.com/service" class="hover-btn-new" target="_b"><span>Order
                                             Now</span></a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="pricing-table pricing-table-highlighted">
+                            <div
+                                class="pricing-table pricing-table-highlighted h-100 d-flex justify-content-between flex-column">
                                 <div class="pricing-table-header grd1">
-                                    <h2>Reseller Hosting</h2>
-                                    <h3>$85/month</h3>
+                                    <h2>Vet Applications</h2>
                                 </div>
                                 <div class="pricing-table-space"></div>
-                                <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                </div>
+                                <p style="font-size: 22px; color: #c2c2c2;">Coming Soon</p>
                                 <div class="pricing-table-sign-up">
-                                    <a href="{{ route('site.products') }}" class="hover-btn-new"><span>Order
+                                    <a href="#" class="hover-btn-new"><span>Order
                                             Now</span></a>
                                 </div>
                             </div>

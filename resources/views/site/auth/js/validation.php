@@ -10,8 +10,6 @@
         }, "Username must contain only letters, numbers");
 
         $(".next-form").click(function() {
-            console.log(1);
-            
             var form = $("#msform");
             form.validate({
                 errorPlacement: function(label, element) {

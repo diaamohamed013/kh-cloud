@@ -2,11 +2,10 @@
     <div class="container">
         <div class="footer-distributed">
             <div class="footer-left">
-                <p class="footer-company-name">All Rights Reserved. &copy; 2018
+                <p class="footer-company-name">All Rights Reserved. &copy; 2016
                     <a href="{{route('site.home')}}">
                         {{ env('APP_NAME') }}
                     </a>
-                    Design By : <a href="https://html.design/">html design</a>
                 </p>
             </div>
 
